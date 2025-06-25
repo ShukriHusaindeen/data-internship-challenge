@@ -24,6 +24,38 @@ This project demonstrates an end-to-end ETL pipeline and data analysis on the So
 4. Run all cells in order.
 5. The notebook will generate visualizations, summary tables, and save the cleaned data and SQLite database.
 
+## 📊 Insights & Analysis
+
+### 1. Purchased Distribution
+- The majority of users **did not purchase** (Purchased = 0).
+- A smaller portion of users made a purchase (Purchased = 1).
+- Example: If you check `df['Purchased'].value_counts()`, you’ll see more 0s than 1s.
+
+### 2. Age Distribution
+- Most users are in their **20s and 30s**.
+- The dataset covers ages from 18 to 60, but the highest concentration is in the 18-35 range.
+
+### 3. Age Group vs Purchased
+- From the `sns.countplot(x='AgeGroup', hue='Purchased', data=df)` and `pd.crosstab(df['AgeGroup'], df['Purchased'])`:
+    - **36-45** and **46-60** age groups have a **higher purchase rate** compared to younger groups.
+    - The **18-25** group has the **lowest purchase rate**.
+
+### 4. Estimated Salary vs Purchased
+- The `sns.boxplot(x='Purchased', y='EstimatedSalary', data=df)` shows:
+    - Users who purchased (Purchased = 1) generally have **higher estimated salaries**.
+    - There is a clear upward trend in salary among purchasers.
+
+### 5. Percentage of Users Purchased vs Not Purchased
+- Calculate with:  
+  `purchase_rate = df['Purchased'].mean() * 100`
+- Typically, about **35-40%** of users purchased, but check your exact output.
+
+### 6. Correlation Analysis
+- From `df.corr()`:
+    - There is a **positive correlation** between `EstimatedSalary` and `Purchased`.
+    - There is also a **positive correlation** between `Age` and `Purchased`.
+    - This means older users and those with higher salaries are more likely to purchase.
+
 ## Key Findings
 
 - The majority of users did not purchase, but purchase rates increase with age.
