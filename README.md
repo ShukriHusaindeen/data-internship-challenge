@@ -98,5 +98,5 @@ git push
 
 ## 🙌 Acknowledgements
 
-Kaggle: Social Advertisement Dataset
-Dataiskole Data Internship Team
+- Kaggle: Social Advertisement Dataset
+- Dataiskole Data Internship Team
