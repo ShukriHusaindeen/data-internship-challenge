@@ -89,12 +89,12 @@ git push
 ## 📁 Project Structure
 
 
-├── [social_ads.ipynb](http://_vscodecontentref_/0)         # Main analysis notebook
-├── [social_ads.csv](http://_vscodecontentref_/1)           # Raw dataset (not included if too large)
-├── [social_ads_cleaned.csv](http://_vscodecontentref_/2)   # Cleaned dataset
-├── [social_ads.db](http://_vscodecontentref_/3)            # SQLite database
-├── [requirements.txt](http://_vscodecontentref_/4)         # Python dependencies
-├── [README.md](http://_vscodecontentref_/5)                # Project documentation
+├── social_ads.ipynb         # Main analysis notebook
+├── social_ads.csv           # Raw dataset (not included if too large)
+├── social_ads_cleaned.csv   # Cleaned dataset
+├── social_ads.db            # SQLite database
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
 
 ## 🙌 Acknowledgements
 
