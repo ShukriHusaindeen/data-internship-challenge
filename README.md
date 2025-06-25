@@ -90,7 +90,7 @@ git push
 
 
 ├── social_ads.ipynb         # Main analysis notebook
-├── social_ads.csv           # Raw dataset (not included if too large)
+├── social_ads.csv           # Raw dataset
 ├── social_ads_cleaned.csv   # Cleaned dataset
 ├── social_ads.db            # SQLite database
 ├── requirements.txt         # Python dependencies
