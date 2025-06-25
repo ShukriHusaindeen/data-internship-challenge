@@ -1,17 +1,24 @@
 
-# Social Advertisement Dataset – ETL & Insight Challenge
+# 🚀 Social Advertisement Dataset – ETL & Insight Challenge
 
 This project demonstrates an end-to-end ETL pipeline and data analysis on the Social Advertisement Dataset as part of a data internship challenge.
 
-## Steps Followed
+## 📦 Project Overview
+
+This project demonstrates an end-to-end **ETL pipeline** and insightful data analysis on the [Social Advertisement Dataset](https://www.kaggle.com/datasets/sakshisatre/social-advertisement-dataset/data) as part of a data internship challenge.
+
+- **Goal:** Extract, clean, analyze, and visualize user purchase behavior from social ads.
+- **Tech Stack:** Python, Pandas, Matplotlib, Seaborn, SQLite
+
+## 🛠️ Steps Followed
 
 1. **Extract:** Loaded the dataset from CSV using pandas.
 2. **Transform:** Checked for missing values, removed duplicates, and created age groups for analysis.
 3. **Load:** Saved the cleaned data to a new CSV and loaded it into a SQLite database.
-4. **Analysis:** Explored the data using summary statistics and visualizations (matplotlib, seaborn).
-5. **Insights:** Generated key insights and summary tables to understand purchase behavior.
+4. **Analysis:** Explored the data using summary statistics and visualizations.
+5. **Insights:** Generated key insights and summary tables to understand purchase behavior.purchase behavior.
 
-## How to Run
+## ▶️ How to Run
 
 1. Clone this repository or download the files.
 2. Make sure you have Python 3.x and the required libraries:
