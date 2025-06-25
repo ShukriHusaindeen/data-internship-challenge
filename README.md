@@ -52,7 +52,7 @@ This project demonstrates an end-to-end **ETL pipeline** and insightful data ana
     - Users who purchased (Purchased = 1) generally have **higher estimated salaries**.
     - There is a clear upward trend in salary among purchasers.
 
-### 5. Percentage of Users Purchased vs<vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'> Not</vscode_annotation> Purchased
+### 5. Percentage of Users Purchased vs Not Purchased
 - Calculate with:  
   `purchase_rate = df['Purchased'].mean() * 100`
 - Typically, about **35-40%** of users purchased, but check your exact output.
@@ -63,7 +63,7 @@ This project demonstrates an end-to-end **ETL pipeline** and insightful data ana
     - There is also a **positive correlation** between `Age` and `Purchased`.
     - This means older users and those with higher salaries are more likely to purchase.
 
-## Key Findings
+## 🏆 Key Findings
 
 - The majority of users did not purchase, but purchase rates increase with age.
 - The 46-60 age group has the highest purchase rate.
@@ -77,7 +77,7 @@ This project demonstrates an end-to-end **ETL pipeline** and insightful data ana
 | 36-45     | 39            | 27            | 40.9              |
 | 46-60     | 18            | 16            | 47.1              |
 
-## Extra Work
+## 🗃️ Extra Work
 
 - Loaded the cleaned data into a SQLite database (`social_ads.db`) for advanced querying.
 - Example SQL queries are included in the notebook.
@@ -85,3 +85,18 @@ This project demonstrates an end-to-end **ETL pipeline** and insightful data ana
 git add README.md
 git commit -m "Add project README"
 git push
+
+## 📁 Project Structure
+
+
+├── [social_ads.ipynb](http://_vscodecontentref_/0)         # Main analysis notebook
+├── [social_ads.csv](http://_vscodecontentref_/1)           # Raw dataset (not included if too large)
+├── [social_ads_cleaned.csv](http://_vscodecontentref_/2)   # Cleaned dataset
+├── [social_ads.db](http://_vscodecontentref_/3)            # SQLite database
+├── [requirements.txt](http://_vscodecontentref_/4)         # Python dependencies
+├── [README.md](http://_vscodecontentref_/5)                # Project documentation
+
+## 🙌 Acknowledgements
+
+Kaggle: Social Advertisement Dataset
+Dataiskole Data Internship Team
