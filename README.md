@@ -52,7 +52,7 @@ This project demonstrates an end-to-end **ETL pipeline** and insightful data ana
     - Users who purchased (Purchased = 1) generally have **higher estimated salaries**.
     - There is a clear upward trend in salary among purchasers.
 
-### 5. Percentage of Users Purchased vs Not Purchased
+### 5. Percentage of Users Purchased vs<vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'> Not</vscode_annotation> Purchased
 - Calculate with:  
   `purchase_rate = df['Purchased'].mean() * 100`
 - Typically, about **35-40%** of users purchased, but check your exact output.
